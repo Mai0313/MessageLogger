@@ -1,0 +1,44 @@
+{
+  "name": "messagelogger",
+  "version": "1.0.0",
+  "description": "A powerful Discord message logger for BetterDiscord",
+  "main": "dist/MessageLogger.plugin.js",
+  "scripts": {
+    "build": "npm run format && npm run lint && npm run clean && npm run compile",
+    "compile": "tsc && npm run bundle",
+    "bundle": "node scripts/bundle.js",
+    "clean": "rm -rf dist",
+    "watch": "tsc --watch",
+    "dev": "concurrently \"npm run watch\" \"npm run watch:bundle\"",
+    "watch:bundle": "nodemon --watch dist/compiled --exec \"npm run bundle\"",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "betterdiscord",
+    "discord",
+    "plugin",
+    "message-logger",
+    "typescript"
+  ],
+  "author": "Mai0313",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mai0313/MessageLogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mai0313/MessageLogger/issues"
+  },
+  "homepage": "https://github.com/Mai0313/MessageLogger#readme"
+}

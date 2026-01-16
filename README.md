@@ -1,8 +1,21 @@
+<div align="center" markdown="1">
+
 # MessageLogger for BetterDiscord
 
 ![Discord](https://img.shields.io/badge/Discord-Plugin-7289DA?style=flat-square&logo=discord)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/ts-template.svg)](https://www.npmjs.com/package/ts-template)
+[![node](https://img.shields.io/badge/-Node.js_18%7C20%7C22-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript_5.6+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black)](https://prettier.io/)
+[![Vitest](https://img.shields.io/badge/-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![tests](https://github.com/Mai0313/MessageLogger/actions/workflows/test.yml/badge.svg)](https://github.com/Mai0313/MessageLogger/actions/workflows/test.yml)
+[![code-quality](https://github.com/Mai0313/MessageLogger/actions/workflows/code-quality-check.yml/badge.svg)](https://github.com/Mai0313/MessageLogger/actions/workflows/code-quality-check.yml)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/Mai0313/MessageLogger/blob/main/LICENSE)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Mai0313/MessageLogger/pulls)
+
+</div>
 
 A powerful and modern BetterDiscord plugin that preserves your Discord message history by logging deleted messages, tracking edits, and detecting ghost pings with persistent storage.
 
@@ -26,7 +39,7 @@ A powerful and modern BetterDiscord plugin that preserves your Discord message h
 ### Installation Steps
 
 1. **Download the plugin**:
-   - [MessageLogger.plugin.js](https://raw.githubusercontent.com/Mai0313/MessageLogger/main/MessageLogger.plugin.js)
+   - [MessageLogger.plugin.js](https://raw.githubusercontent.com/Mai0313/MessageLogger/main/dist/MessageLogger.plugin.js)
 
 2. **Place the file** in your BetterDiscord plugins folder:
    - **Windows**: `%AppData%\BetterDiscord\plugins`

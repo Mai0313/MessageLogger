@@ -1,8 +1,21 @@
+<div align="center" markdown="1">
+
 # MessageLogger for BetterDiscord
 
-![Discord](https://img.shields.io/badge/Discord-外掛-7289DA?style=flat-square&logo=discord)
-![版本](https://img.shields.io/badge/版本-1.0.0-green?style=flat-square)
-![授權](https://img.shields.io/badge/授權-MIT-blue?style=flat-square)
+![Discord](https://img.shields.io/badge/Discord-Plugin-7289DA?style=flat-square&logo=discord)
+![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/ts-template.svg)](https://www.npmjs.com/package/ts-template)
+[![node](https://img.shields.io/badge/-Node.js_18%7C20%7C22-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript_5.6+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black)](https://prettier.io/)
+[![Vitest](https://img.shields.io/badge/-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![tests](https://github.com/Mai0313/MessageLogger/actions/workflows/test.yml/badge.svg)](https://github.com/Mai0313/MessageLogger/actions/workflows/test.yml)
+[![code-quality](https://github.com/Mai0313/MessageLogger/actions/workflows/code-quality-check.yml/badge.svg)](https://github.com/Mai0313/MessageLogger/actions/workflows/code-quality-check.yml)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/Mai0313/MessageLogger/blob/main/LICENSE)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Mai0313/MessageLogger/pulls)
+
+</div>
 
 一個功能強大的現代化 BetterDiscord 外掛，透過記錄已刪除訊息、追蹤編輯和偵測幽靈提及來保存您的 Discord 訊息歷史，並支援永久儲存。
 
@@ -26,7 +39,7 @@
 ### 安裝步驟
 
 1. **下載外掛**：
-   - [MessageLogger.plugin.js](https://raw.githubusercontent.com/Mai0313/MessageLogger/main/MessageLogger.plugin.js)
+   - [MessageLogger.plugin.js](https://raw.githubusercontent.com/Mai0313/MessageLogger/main/dist/MessageLogger.plugin.js)
 
 2. **放置檔案**到您的 BetterDiscord 外掛資料夾：
    - **Windows**：`%AppData%\BetterDiscord\plugins`
